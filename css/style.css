@@ -1,0 +1,69 @@
+body{
+    background-color: white;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.pozadi{
+    background-color: rgb(210, 235, 243);
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    max-width: 400px;
+    border-radius: 15px;
+    border-style: outset;
+    box-shadow: rgba(2, 46, 241, 0.56) 0px 22px 70px 4px;
+}
+.prihlaseni{
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+}
+
+.jmeno{
+    display: flex;
+    justify-content: center;
+}
+.jmeno label{
+    min-width: 50px;
+}
+
+.heslo{
+    display: flex;
+    justify-content: center;
+}
+.heslo label{
+    min-width: 50px;
+}
+
+.tlacitka{
+    display: flex;
+    justify-content: space-between;
+}
+
+.odsazeni{
+    margin: 10px;
+}
+
+.tlacitka a{
+    border: 0px blue;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    box-shadow: grey;
+}
+
+#login{
+    background-color: green;
+}
+
+#heslo{
+    background-color: blue;
+}
+
+
+
