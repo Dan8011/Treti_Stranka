@@ -41,7 +41,7 @@ main{
 
 .tlacitka{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .odsazeni{
@@ -65,5 +65,81 @@ main{
     background-color: blue;
 }
 
+#registrace{
+    background-color: green;
+}
 
 
+
+
+
+.pozadi2{
+    background-color:rgb(210, 235, 243);
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    max-width: 400px;
+    border-radius: 15px;
+    border-style: outset;
+    box-shadow: rgba(78, 241, 2, 0.56) 0px 22px 70px 4px;
+}
+
+.zarovnani{
+    display: flex;
+    justify-content: center;
+}
+
+.zarovnani label{
+    width: 110px;
+}
+
+.registrovat a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    border-color: green;
+    padding: 10px;
+    margin: 5px;
+    font-size: large;
+}
+
+#registrovat{
+    background-color: green;
+}
+
+.pozadi3{
+    background-color:rgb(210, 235, 243);
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    max-width: 400px;
+    border-radius: 15px;
+    border-style: outset;
+    box-shadow: rgba(2, 46, 241, 0.56) 0px 22px 70px 4px;
+}
+
+.zarovnanii {
+    display: flex;
+    justify-content: center;
+}
+
+.zarovnanii label{
+    min-width: 50px;
+}
+
+.obnovit a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    border-color: blue;
+    background-color: blue;
+    padding: 10px;
+    margin: 5px;
+    font-size: large;
+}
