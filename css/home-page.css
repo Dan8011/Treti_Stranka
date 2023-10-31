@@ -1,0 +1,39 @@
+.Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background: rgb(7,7,7);
+    background: linear-gradient(71deg, rgba(7,7,7,1) 0%, rgba(60,60,60,1) 99%);
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.tlacitka2 a{
+    border: 0px blue;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: grey;
+    font-size: xx-large;
+}
+
+.odsazeni2{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#prhlst{
+    background-color: black;
+    color: white;
+}
+
+#rgrst{
+    background-color: grey;
+    color: black;
+}
